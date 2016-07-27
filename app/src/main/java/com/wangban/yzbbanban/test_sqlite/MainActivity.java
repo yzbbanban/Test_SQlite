@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setData() {
-        dbHelper = new MySQLiteOpenHelper(this, "BookStore.db", null, 3);
+        dbHelper = new MySQLiteOpenHelper(this, "BookStore.db", null, 5);
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
